@@ -5,7 +5,7 @@ const path = require("path");
 const Workout = require("./models/index.js");
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 require("./routes/html-routes.js")(app);
 
